@@ -8,6 +8,7 @@ would just need two configs and initialise based on NODE_ENV
 */
 
 import firebase from 'firebase/app';
+import 'firebase/auth';
 
 import * as keys from '../constants/firebaseKeys';
 
